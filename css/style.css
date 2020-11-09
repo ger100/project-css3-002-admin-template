@@ -228,7 +228,19 @@ aside {
     transition : background-color 300ms ease-out;
 }
 
-
+.main__card--blue .card__top:hover, 
+.main__card--blue .card__bottom:hover {
+    background-color: rgb(2, 94, 192);
+}
+.main__card--yellow:hover {
+    background-color: rgb(175, 132, 4);
+}
+.main__card--green:hover {
+    background-color: rgb(27, 114, 47);
+}
+.main__card--red:hover {
+    background-color: rgb(150, 36, 47);
+}
 
 
 /*
