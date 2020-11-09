@@ -151,7 +151,7 @@ aside {
 
 
 .content {
-    flex-basis: 100;
+    flex-basis: 100%;
     padding: 0 2rem;
 }
 
@@ -183,36 +183,36 @@ aside {
     margin-right:0 ;
 }
 
-.main__card--blue .card__top 
+.main__card--blue .card__top, 
 .main__card--blue .card__bottom {
     background-color: rgb(0,123,255);
     transition : background-color 300ms ease-out;
 }
 
-.main__card--yellow .card__top 
-.main__card--yellow .cart__bottom {
+.main__card--yellow .card__top, 
+.main__card--yellow .card__bottom {
     background-color: rgb(255,193,7);
     transition : background-color 300ms ease-out;
 }
-.main__card--green .card__top 
+.main__card--green .card__top, 
 .main__card--green .card__bottom {
     background-color: rgb(40,167,69);
     transition : background-color 300ms ease-out;
 }
-.main__card--red .card__top 
+.main__card--red .card__top, 
 .main__card--red .card__bottom {
     background-color: rgb(220,53,69);
     transition : background-color 300ms ease-out;
 }    
 
-.cart__top {
+.card__top {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     padding: 1.5rem 1.25rem;
     font-size: 1.1rem;
 }
 
-.cart__bottom {
+.card__bottom {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     padding: 1rem 1.25rem;
@@ -224,7 +224,7 @@ aside {
     margin-left: auto;
 }
 
-.cart__bottom card__top {
+.card__bottom card__top {
     transition : background-color 300ms ease-out;
 }
 
